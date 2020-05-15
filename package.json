@@ -1,0 +1,19 @@
+{
+  "name": "hotake-monkeys",
+  "version": "1.0.0",
+  "description": "display for my own personal rating of arctic monkeys albums",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AChareun/hotake-monkeys.git"
+  },
+  "author": "Alonso Chareun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AChareun/hotake-monkeys/issues"
+  },
+  "homepage": "https://github.com/AChareun/hotake-monkeys#readme"
+}
