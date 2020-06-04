@@ -4,7 +4,8 @@ body {
 }
 
 #container {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/img/bgimg.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/img/bgimg.jpg");
   max-height: 100vh;
   overflow: auto;
   scroll-snap-type: y;
@@ -16,7 +17,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'Geo', sans-serif;
+  font-family: "Geo", sans-serif;
   width: 100%;
   background: linear-gradient(#f4f1ea, #eae7e0);
   position: sticky;
@@ -26,7 +27,7 @@ body {
 
 .header a {
   text-decoration: none;
-  text-align: center; 
+  text-align: center;
   width: 15em;
   height: 100%;
   color: #000;
@@ -38,19 +39,19 @@ body {
 }
 
 #github-link {
-  padding: 21px 0; 
+  padding: 21px 0;
   font-size: 1em;
 }
 
 .header a:hover {
-  background: linear-gradient( #f28c27, #f2821d);
+  background: linear-gradient(#f28c27, #f2821d);
 }
 
 /* Items */
 
 .item {
   height: 100vh;
-  font-family: 'Geo', sans-serif;
+  font-family: "Geo", sans-serif;
   font-size: 1.4em;
   display: flex;
   justify-content: center;
@@ -89,7 +90,6 @@ body {
   overflow: auto;
 }
 
-
 /* Index */
 
 #index .item-img {
@@ -100,11 +100,11 @@ body {
   border-bottom: solid #f28c27 0.5px;
 }
 
-
 /* Whatever People Say I Am That's What I'm Not */
 
 #wpsiatwin {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/whatever.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/img/whatever.jpg");
   background-color: linear-gradient(#888888, #bbbbbb);
   background-repeat: no-repeat;
   background-size: cover;
